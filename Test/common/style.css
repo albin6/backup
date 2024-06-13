@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    background-color: aquamarine;
+    padding-top: 100px;
+    padding-left: 50px;
+    position: relative;
+    margin-top: 50px;
+}
+
+
+.btn1, .btn2 , .btn3 , .btn4{
+    width: 170px;
+    height: 70px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.btn1 {
+    position: relative;
+}
+
+.btn2 {
+    position: absolute;
+    top: 0;
+}
+
+.btn3 {
+    position: relative;
+}
+
+.btn4 {
+    position: relative;
+}
+
+
+.btn1 p , .btn2 p , .btn3 p , .btn4 p{
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: brown;
+    color: white;
+}
+
+

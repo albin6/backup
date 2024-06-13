@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Familjen Grotesk", Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+}
+
+.main-header {
+    width: 100%;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hulu-logo {
+    width: 61px;
+    height: 20px;
+}
+
+.hulu-logo img {
+    width: 100%;
+    height: 100%;
+    fill: #1ce783;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    color: #a8afbd;
+    width: 84px;
+    height: 40px;
+    padding: 9px 0 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+
+.btn:hover span {
+    color: #ffffff;
+}
+
+.btn .hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.btn:hover .hover {
+    color: #fff;
+    background-color: #4a4a4a;
+}
+
+.section-one {
+    z-index: -1;
+    position: relative;
+    top: -75px;
+    opacity: 0.3;
+    background-image: url('media/background-poster.jpg');
+}
+
+section{
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-one-content-main {
+    width: 100%;
+    height: 618px;
+    padding: 60px 40px;
+    z-index: 1;
+    position: relative;
+    top: -695px;
+}
+
+.sec-one-content-inner {
+    width: 670px;
+    height: 240px;
+    margin: 16px 385px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-one {
+    height: 260px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-one .basic span {
+    color: #1ce783;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 13px;
+    padding-bottom: 8px;
+}
+
+.basic {
+    display: flex;
+    justify-content: center;
+}
+
+.box-one .hulu-disney-logo {
+    width: 190px;
+    height: 60px;
+    margin-top: 19px;
+}
+
+.box-one .hulu-disney-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.hulu-disney-espn-logo {
+    margin-top: 16px;
+    position: relative;
+    bottom: -6px;
+}
+
+.hulu-disney-espn-logo img {
+    width: 300px;
+}
+
+.price-details {
+    width: 100%;
+    height: 80px;
+}
+
+.price-details {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.box-one .price-details h3 {
+    text-align: center;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.box-one button {
+    width: 325px;
+    height: 39px;
+    margin-top: 10px;
+    background-color: #1ce783;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box-one button:hover {
+    opacity: 0.9;
+}
+
+.box-one button span {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.additionals {
+    height: auto;
+    padding-top: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.view-plan-logo {
+    padding-top: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.view-plan-logo span {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.terms {
+    padding-bottom: 38px;
+}
+
+.additionals .terms a {
+    color: #a8afbd;
+    font-size: small;
+}
+
+.signup-hulu  {
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: #a8afbd;
+}
+
+.signup-hulu:hover {
+    border-color: #a8afbd;
+}
+
+.additionals .signup-hulu span a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.additionals .signup-hulu span a:hover {
+    color: #1ce783;
+}
+
+.view-plan-logo button {
+    margin-top: 12px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    cursor: pointer;
+}
